@@ -1,61 +1,50 @@
-# 🏦 Bank Management System
+# Bank Management System
 
-A lightweight, command-line interface (CLI) Bank Management Application built with Python. This project simulates core banking operations like account creation, deposits, withdrawals, and balance tracking with JSON-based data persistence.
+A lightweight Python application for simulating core banking operations in a clean command-line interface.
 
----
+This project covers practical concepts such as account creation, deposits, withdrawals, balance checks, and data persistence using JSON. It is a strong beginner-friendly example of Python fundamentals applied to a real-world scenario.
 
-## ✨ Features
+## Features
 
-- 👤 **Account Creation**: Easily create a new bank account with basic verification (age limit, 4-digit PIN setup).
-- 🎲 **Unique Account Number Generation**: Automatically generates a randomized unique account ID for every user.
-- 💵 **Deposit & Withdrawal**: Perform secure money deposits and withdrawals with PIN validation.
-- 💾 **Data Persistence**: All account details and transactions are saved locally in a `data.json` file.
-- 🔐 **Basic Validation**: Validates user inputs (PIN length, minimum age, numerical inputs) to prevent errors.
+- Create a new account
+- Generate unique account numbers
+- Deposit and withdraw money
+- Validate user input and PINs
+- Store account records in a local JSON file
+- Manage transactions through a simple CLI
 
----
+## Tech stack
 
-## 📚 What I Learned From This Project
+- Python 3
+- JSON file storage
+- Standard library modules
 
-Building this Bank Management System helped me strengthen several fundamental programming and Python concepts:
+## Learning outcomes
 
-1. **Object-Oriented Programming (OOP)**:
-   - Defining and using `class` and `@classmethod` in Python.
-   - Encapsulation using private helper methods (e.g., `__accountgenerate()`, `__update()`).
-2. **File Handling & JSON Data Persistence**:
-   - Reading from and writing to external JSON files (`json.loads()`, `json.dumps()`).
-   - Using Python's `pathlib.Path` to check file existence gracefully.
-3. **Input Validation & Exception Handling**:
-   - Validating user input types and bounds to make the CLI application robust.
-   - Managing errors using `try...except` blocks.
-4. **Python Standard Libraries**:
-   - Working with modules like `random` and `string` to generate random strings for account numbers.
+This project helps reinforce:
 
----
+- Object-oriented programming
+- File handling and JSON persistence
+- Input validation and error handling
+- Clean code structure and modular thinking
 
-## 🚀 How to Run
+## Run locally
 
-1. **Prerequisites**: Ensure you have [Python 3.x](https://www.python.org/) installed.
-2. **Clone / Download** this repository to your local machine.
-3. **Navigate** to the project directory:
-   ```bash
-   cd "bank management"
-   ```
-4. **Run the application**:
-   ```bash
-   python main.py
-   ```
+```bash
+git clone https://github.com/yashpnd4/-bank-management.git
+cd "-bank-management"
+python main.py
+```
 
----
+## Notes
 
-## 🤝 Connect With Me
+This is a learning and simulation project, not a real financial system.
 
-I'd love to connect, receive feedback, or collaborate on future projects!
+## Connect
 
-- **GitHub**: [@your-username](https://github.com/your-username)
-- **LinkedIn**: [Your Name](https://linkedin.com/in/your-profile)
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **X / Twitter**: [@your_handle](https://twitter.com/your_handle)
+- GitHub: [yashpnd4](https://github.com/yashpnd4)
+- LinkedIn: [Yash Pandey](https://www.linkedin.com/in/yash-pandey-130163211/)
 
 ---
 
-⭐ *If you found this project helpful or interesting, feel free to give it a star!*
+A simple, polished project that demonstrates practical Python learning and problem-solving.
